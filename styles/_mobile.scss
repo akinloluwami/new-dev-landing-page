@@ -1,0 +1,23 @@
+$base-color: #0d4fdd;
+@media screen and (max-width: 480px) {
+  body {
+    .hero {
+      width: 100%;
+    }
+  }
+  .why-join {
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+    .content {
+      margin: 10px 0;
+    }
+  }
+  .stats {
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -1,4 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+@media screen and (max-width: 480px) {
+  body .hero {
+    width: 100%;
+  }
+  .why-join .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .why-join .content {
+    margin: 10px 0;
+  }
+  .stats .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -100,9 +127,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 60vh;
   background-size: cover;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .why-join h1 {
@@ -122,8 +148,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .why-join .row .content {
@@ -189,7 +213,7 @@
           align-items: center;
   background: -webkit-gradient(linear, left top, right top, from(#1986eb), to(#0d4fdd));
   background: linear-gradient(90deg, #1986eb, #0d4fdd);
-  height: 60vh;
+  padding: 30px 0;
 }
 
 .stats .row {
@@ -257,7 +281,6 @@
 }
 
 .cta {
-  height: 40vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -281,6 +304,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
 .cta button {

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+@import "./mobile";
 
 $base-color: #0d4fdd;
 
@@ -72,9 +73,8 @@ $base-color: #0d4fdd;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 60vh;
   background-size: cover;
-  padding: 30px 0;
+  padding: 50px 0;
   h1 {
     padding: 20px;
     color: $base-color;
@@ -86,7 +86,6 @@ $base-color: #0d4fdd;
     margin: auto;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     .content {
       align-items: center;
       display: flex;
@@ -127,8 +126,7 @@ $base-color: #0d4fdd;
   flex-direction: column;
   align-items: center;
   background: linear-gradient(90deg, rgb(25, 134, 235), rgb(13, 79, 221));
-  height: 60vh;
-
+  padding: 30px 0;
   .row {
     display: flex;
     width: 95%;
@@ -171,7 +169,6 @@ $base-color: #0d4fdd;
   }
 }
 .cta {
-  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -184,6 +181,7 @@ $base-color: #0d4fdd;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
   }
   button {
     color: #fff;

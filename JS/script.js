@@ -10,7 +10,6 @@ const Page = () => {
     ${whyJoin()}
     ${Stats()}
     ${Cta()}
-    ${Footer()}
     `;
 };
 
