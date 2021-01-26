@@ -91,9 +91,9 @@ $base-color: #0d4fdd;
       display: flex;
       flex-direction: column;
       background: linear-gradient(-90deg, rgb(25, 134, 235), rgb(13, 79, 221));
-      height: 250px;
+      height: 300px;
       width: 250px;
-      justify-content: space-between;
+      justify-content: space-around;
       padding: 20px;
       color: #fff;
       border-radius: 20px;
@@ -117,6 +117,16 @@ $base-color: #0d4fdd;
         height: 50px;
         background-color: #fff;
         border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .fas {
+          background: linear-gradient(rgb(25, 134, 235), rgb(13, 79, 221));
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
       }
     }
   }

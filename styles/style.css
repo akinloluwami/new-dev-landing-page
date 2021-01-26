@@ -163,11 +163,10 @@
           flex-direction: column;
   background: -webkit-gradient(linear, right top, left top, from(#1986eb), to(#0d4fdd));
   background: linear-gradient(-90deg, #1986eb, #0d4fdd);
-  height: 250px;
+  height: 300px;
   width: 250px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding: 20px;
   color: #fff;
   border-radius: 20px;
@@ -198,6 +197,23 @@
   height: 50px;
   background-color: #fff;
   border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.why-join .row .content .icon .fas {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1986eb), to(#0d4fdd));
+  background: linear-gradient(#1986eb, #0d4fdd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .stats {
