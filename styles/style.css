@@ -319,6 +319,7 @@
   border-radius: 100px;
   font-size: 20px;
   cursor: pointer;
+  margin: 10px 0;
 }
 
 .cta button a:link {
