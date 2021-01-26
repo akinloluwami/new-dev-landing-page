@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(25, 134, 235, 0.9)), to(rgba(13, 79, 221, 0.9))), url(https://scontent-los2-1.xx.fbcdn.net/v/t1.0-9/p720x720/139493767_276708677214520_383371500984432734_o.jpg?_nc_cat=108&ccb=2&_nc_sid=825194&_nc_eui2=AeFV54vv-wz5PsItxVcP56E4UkVq5w4icN9SRWrnDiJw30spUQ3xoNOusqMFObCUcz1F9g08e6H5xGl2FaM3A2b1&_nc_ohc=mgR9HnUpTc8AX-4skHZ&_nc_ht=scontent-los2-1.xx&tp=6&oh=2b4b627978db22e2812ee51e1553fcba&oe=6035D8F1);
+  background: linear-gradient(-90deg, rgba(25, 134, 235, 0.9), rgba(13, 79, 221, 0.9)), url(https://scontent-los2-1.xx.fbcdn.net/v/t1.0-9/p720x720/139493767_276708677214520_383371500984432734_o.jpg?_nc_cat=108&ccb=2&_nc_sid=825194&_nc_eui2=AeFV54vv-wz5PsItxVcP56E4UkVq5w4icN9SRWrnDiJw30spUQ3xoNOusqMFObCUcz1F9g08e6H5xGl2FaM3A2b1&_nc_ohc=mgR9HnUpTc8AX-4skHZ&_nc_ht=scontent-los2-1.xx&tp=6&oh=2b4b627978db22e2812ee51e1553fcba&oe=6035D8F1);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .circle {
+  background-color: #fff;
+  border-radius: 200px;
+  width: 250px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+
+.hero .circle .bar {
+  width: 60px;
+  height: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1986eb), to(#0d4fdd));
+  background: linear-gradient(#1986eb, #0d4fdd);
+  margin: 10px 0;
+  border-radius: 10px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.hero .circle .bar:hover {
+  width: 80px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.hero .circle p {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1986eb), to(#0d4fdd));
+  background: linear-gradient(#1986eb, #0d4fdd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.hero .circle small {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1986eb), to(#0d4fdd));
+  background: linear-gradient(#1986eb, #0d4fdd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 15px;
+}
+
+.why-join {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60vh;
+  background-size: cover;
+  padding: 30px 0;
+}
+
+.why-join h1 {
+  padding: 20px;
+  color: #0d4fdd;
+}
+
+.why-join .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.why-join .row .content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, right top, left top, from(#1986eb), to(#0d4fdd));
+  background: linear-gradient(-90deg, #1986eb, #0d4fdd);
+  height: 250px;
+  width: 250px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.why-join .row .content:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#1986eb), to(#0d4fdd));
+  background: linear-gradient(90deg, #1986eb, #0d4fdd);
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.why-join .row .content h3 {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.why-join .row .content p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.why-join .row .content .icon {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 100px;
+}
+
+.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#1986eb), to(#0d4fdd));
+  background: linear-gradient(90deg, #1986eb, #0d4fdd);
+  height: 60vh;
+}
+
+.stats .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stats .row .content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+}
+
+.stats .row .content p {
+  font-size: 25px;
+}
+
+.stats .row .content .circle {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.stats .row .content .circle h1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1986eb), to(#0d4fdd));
+  background: linear-gradient(#1986eb, #0d4fdd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+}
+
+.cta {
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 50px 0;
+}
+
+.cta h1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1986eb), to(#0d4fdd));
+  background: linear-gradient(#1986eb, #0d4fdd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta button {
+  color: #fff;
+  outline: none;
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1986eb), to(#0d4fdd));
+  background: linear-gradient(#1986eb, #0d4fdd);
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cta button a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cta button a:visited {
+  color: #fff;
+}
+
+footer {
+  background-color: #262626;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
